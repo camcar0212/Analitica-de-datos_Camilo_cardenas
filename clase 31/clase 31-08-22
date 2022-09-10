@@ -1,0 +1,53 @@
+número = [ 1 , 2 , 3 , 4 , 5 , 6 , 7 ]
+
+imprimir ( numero )
+arreglo = [ 1 , 'hola' , 4 , 'Camilo','Andres' ,1 ,2 ,3 ,4 ,5 ,6 ,7,8 ]
+imprimir ( arreglar )
+
+# Conoce el numero de elementos del estado
+imprimir ( len ( arreglo ))
+
+# imprimir el ultimo elemento
+imprimir ( arreglo [ len ( arreglo ) - 1 ])
+
+# otra forma de imprimir el ultimo elemento
+imprimir ( arreglo [ - 1 ])
+
+# para imprimir el penuntimo numero
+imprimir ( arreglo [ - 2 ])
+
+# agregamos un elemento al final
+arreglo _ agregar ( "Cardenas" )
+imprimir ( arreglar )
+
+#count imprime el numero de veces que se encuentra
+imprimir ( arreglo . contar ( "Analitica de datos" ))
+
+# imprime todos los elementos menos el primero y el ultimo
+arreglolice = arreglo [ 1 : - 1 ]
+imprimir ( arreglar )
+
+# insertar en el indice 5, un elemento
+arreglo _ insertar ( 5 , "Docentes" )
+imprimir ( arreglar )
+
+letras = [ 'B' , 'A' , 'E' , 'Z' , 'b'  'R' ]
+imprimir ( letras )
+
+# ordena las letras del abecedario
+letra _ ordenar ()
+imprimir ( letras )
+
+# adiciona los elementos de otras arraylis
+letra _ extender ( arreglar )
+imprimir ( letras )
+
+#localizar y buscar la letra en la posicion
+letra _ índice ( 'R' )
+imprimir ( letras )
+
+# invierte los elementos de una lista
+letra _ inversa ()
+
+# eliminar un elemento de lista
+letra _ eliminar ( "Andres" )
