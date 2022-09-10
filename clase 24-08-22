@@ -1,0 +1,103 @@
+Clase  Mascota :
+  def  _init_ ( self , pIdMascota , pNombreDeLaMascota , pColorDeRaza , pRazaAnimal , pDiagnosticos , pFertilizado , pPeso ):
+
+    uno mismo __nomMascota = pNombreDeLaMascota
+    uno mismo __colorRaza = pColorDeRaza
+    uno mismo __razaMascota = pRazaAnimal
+    uno mismo __codigoMascota = pIdMascota
+    uno mismo __diagnostico = pDiagnosticos
+    uno mismo __fertilizado = pFertilizado
+    uno mismo __pesoMascota = pPeso
+
+  def  setNombre ( self , pNombreDeLaMascota ):
+    uno mismo __nomMascota = pNombreDeLaMascota
+
+  def  setPeso ( self , pPeso ):
+    uno mismo __pesoMascota = pPeso
+
+  def  setCodigo ( self , pIdMascota ):
+    uno mismo __codigoMascota = pIdMascota
+
+  def  setRaza ( self , pRaza ):
+    uno mismo __raza = pRaza
+
+  def  setColor ( self , pColorDeRaza ):
+        uno mismo __color = pColorDeRaza
+
+  def  setFertilización ( self , pFertilizado ):
+        uno mismo __fertilizado = pFertilizado
+
+  def  setDiagnosticos ( self , pDiagnosticos ):
+    uno mismo __diagnosticos = pDiagnosticos
+  def  getNombre ( self ):
+    devolverse  a uno mismo . __nomMascota
+
+
+
+clase  Persona ():
+
+
+  def  _init_ ( self , pCodigoPersona , pNombre , pApellidos , pIdentificacion , pTelefono , pDireccion ):
+
+    uno mismo __codigoPersona = pCodigoPersona
+    uno mismo __nombre = pNombre
+    uno mismo __apellidos = pApellidos
+    uno mismo __identificación = pIdentificación
+    uno mismo __telefono = pTelefono
+    uno mismo __direccion = pDirección
+
+  def  setCodigoPersona ( self , pCodigoPersona ):
+    uno mismo __codigoPersona = pCodigoPersona
+
+  def  setNombre ( self , pNombre ):
+    uno mismo __nombre = pNombre
+
+  def  setApellidos ( self , pApellidos ):
+    uno mismo __apellidos = pApellidos
+
+  def  setIdentificación ( self , pIdentificación ):
+    uno mismo __identificación = pIdentificación
+
+  def  setTelefono ( self , pTelefono ):
+    uno mismo __telefono = pTelefono
+
+  def  setDirección ( self , pDirección ):
+    uno mismo __direccion = pDirección
+
+
+  def  getCodigoPersona ( self ):
+    devolverse  a uno mismo . __codigoPersona
+  def  getNombre ( self ):
+    devolverse  a uno mismo . __nombre
+
+  def  getApellidos ( self ):
+    devolverse  a uno mismo . __apellidos
+
+  def  getIdentificación ( self ):
+    devolverse  a uno mismo . __identificacion
+
+  def  getTelefono ( self ):
+    devolverse  a uno mismo . __telefono
+
+  def  getDirection ( auto ):
+    devolverse  a uno mismo . __direccion
+
+
+clase  Medico ( Persona ):
+
+  def  _init_ ( self , pCodigoPersona , pNombre , pApellido , pIdentificacion , pTelefono , pDireccion , pEspecialidad ):
+    súper (). _init_ ( pCodigoPersona , pNombre , pApellido , pIdentificacion , pTelefono , pDirección )              
+    uno mismo __especialidad = pEspecialidad
+
+def  setEspecialidad ( self , pEspecialidad ):
+    uno mismo __especialización = pEspecialidad
+
+def  getEspecialidad ( self ):
+    devolverse  a uno mismo . __especialidad
+
+clase  Cliente ( Persona , Mascota ):
+  def  _init_ ( self , pCodigoPersona , pNombre , pApellido , pIdentificacion , pTelefono , pDireccion , pCodigoMascota , pNombreMascota , pColor , pRaza , pDiagnosticos ):
+
+    persona _ _init_ ( self , pCodigoPersona , pNombre , pApellido , pIdentificacion , pTelefono , pDireccion )
+
+    Mascota . _init_ ( self , pCodigoMascota , pNombreMascota , pColor , pRaza , pDiagnosticos ,)
